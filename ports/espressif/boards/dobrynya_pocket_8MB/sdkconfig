@@ -1,0 +1,7 @@
+# Board Specific Config
+
+# Partition Table
+CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="boards/dobrynya_pocket_8MB/partitions-dbr.csv"
+
+# Serial flasher config
+CONFIG_ESPTOOLPY_FLASHSIZE_8MB=y
